@@ -1,0 +1,13 @@
+virtualenv venv                         //Crear virtualenv
+.\Scripts\activate                      //Usar el virtualenv
+django-admin                            //Avaliable subcommands
+django-admin startproject putada        //Crea proyecto
+
+
+
+python manage.py runserver              //Corre servidor
+python manage.py makemigrations
+python manage.py migrate                //Algo con la BD
+python manage.py createsuperuser        //
+
+python manage.py startapp products      //crea app( página creo)
